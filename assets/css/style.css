@@ -32,25 +32,13 @@ body {
     margin-left: 170px;
 }
 
-.success {
-    padding: 5px;
-    background: rgb(54, 238, 54);
-    border: none; 
-    color: #fff;
-    font-size: 18px; 
-    font-weight: 700; 
-    height: 50px; 
-    margin-top: 30px;
+.paragrafo-resultado, .bad {
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
 }
 
-.error {
-    padding: 5px;background: red; 
-    border: none; 
-    color: #fff;
-    font-size: 18px; 
-    font-weight: 700;
-    height: 50px; 
-    margin-top: 30px;
+.bad {
+    background: rgb(255, 150, 150);
 }
 
 form input, form label, form button {
