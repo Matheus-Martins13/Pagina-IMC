@@ -1,4 +1,4 @@
-function escopo() {
+(function() {
 
     const form = document.querySelector('.form');
 
@@ -63,7 +63,4 @@ function escopo() {
         p.innerHTML = msg;
         resultado.appendChild(p)
     }
-}
-
-escopo()
-
+})();
